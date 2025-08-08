@@ -8,12 +8,21 @@ dependencies = [
     "kaggle>=1.7.4.5",
     "pandas>=2.3.1",
     "polars>=1.31.0",
+<<<<<<< HEAD
     "scikit-learn>=1.7.1",
+=======
+    "polars-lts-cpu>=1.32.0",
+>>>>>>> 2b505548ac03e0f00b2dd516dee6e1ff35fa3721
 ]
 
 [dependency-groups]
 dev = [
     "ipykernel>=6.30.1",
+<<<<<<< HEAD
     "jupyter>=1.1.1",
     "notebook>=7.4.5",
+=======
+    "matplotlib>=3.10.5",
+    "pyarrow>=21.0.0",
+>>>>>>> 2b505548ac03e0f00b2dd516dee6e1ff35fa3721
 ]
